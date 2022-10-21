@@ -1,8 +1,11 @@
 let num=9;
-count=0;
-for(i=0;i<=num;i++){if(num%i==0){
-    count++;
-}
-if (count>2){"this njot ashdhig "};// currect 
-else{}//put your code
+let count=0;
+for(let i=1;i<=num;i++){
+    if(num%i==0){
+        count++;
+    }
+}if(count==2){
+    console.log("This is a Prime Number");
+}else{
+    console.log("This is not a Prime Number");
 }

@@ -1,4 +1,4 @@
-let num=2021;
+let num=prompt();
 let bag="";
 for(let i=num.length-1;i>=0;i--){
     bag+=num[i];

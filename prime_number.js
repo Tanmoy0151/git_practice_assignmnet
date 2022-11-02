@@ -1,10 +1,10 @@
-let num=9;
-let count=0;
-for(let i=1;i<=num;i++){
-    if(num%i==0){
-        count++;
+let number=9;
+let factor=0;
+for(let i=1;i<=number;i++){
+    if(number%i==0){
+        factor++;
     }
-}if(count==2){
+}if(factor==2){
     console.log("This is a Prime Number");
 }else{
     console.log("This is not a Prime Number");
